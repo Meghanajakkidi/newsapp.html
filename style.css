@@ -1,0 +1,148 @@
+
+ .content{
+    text-align: center;
+}
+ul>li{
+    display: inline-block;
+    padding-left: 10%;
+    margin-top: 2%;
+}
+.Navbar{
+    width:100%;
+    height: 50px;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.navtext{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.text{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    color:black
+}
+.btn1{
+    width:100px;
+    height: 50px;
+    border: 1px solid palevioletred;
+    background: none;
+    color: palevioletred;
+}
+.navcontent{
+    color: palevioletred;
+}
+.btn1:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.search{
+    border:none;
+    filter: blur(1px);
+    background:none ;
+}
+.search:hover{
+    transform: scale(1,1.5);
+    filter: none;
+}
+#alert{
+    width:100%;
+    height:40px ;
+    background-image: linear-gradient(to right,rgb(85, 3, 30),black);
+    margin-top: 3%;
+    color: white;
+    
+   
+}
+#msg{
+    width:0%;
+   transition: 2s;
+   color: white;
+   height:10px ;
+   display: flex;
+   justify-content: space-evenly;
+}
+.img{
+    margin-top: 5%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+a:hover{
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+}
+.row-container{
+    display: flex;
+    flex-direction: column;
+}
+.live{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color:palevioletred;
+    transition: 2s;
+}
+.live:hover{
+    background-color: rgb(112, 5, 41);
+}
+.column-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card img{
+    width:300px;
+    height:200px;
+    
+}
+.card{
+    width:300px;
+    height: 200px;
+    border: dotted;
+     
+}
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+   
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: lightgrey;
+    margin-top: 3%;
+}
+.logocontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 5%;
+}
+.mediacontainer{
+    display: flex;
+    border-radius: 10%;
+}
+.mediacontainer img{
+    margin-right: 1%;
+    margin-top: 3%;
+    
+}
+@media (min_width:500px){
+    .Navbar{
+        display: block;
+    }
+}
